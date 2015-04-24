@@ -3,3 +3,9 @@ body {
   font-family: $f-copy;
   color: $c-gray;
 }
+a {
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}

@@ -1,0 +1,35 @@
+/* Block - Card */
+.card-block {
+  margin: $spacer-lg;
+  padding: $spacer-sm;
+  background: $c-white;
+  border-radius: $rounded;
+  max-width: 300px;
+}
+.card-price {
+  font-size: 14px;
+  color: $c-teal;
+  display: block;
+  text-align: right;
+}
+.card-title, .card-link {
+  font-weight: 400;
+  font-size: 14px;
+  font-family: $f-copy;
+  color: $c-gray;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 0 10px 0;
+  line-height: 20px;
+}
+.card-shop {
+  font-size: 14px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  color: lighten($c-gray, 20%);
+  display: block;  
+    float: left;
+    width: 50%;
+}

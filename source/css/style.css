@@ -6,11 +6,50 @@ body {
   font-family: Helvetica, Arial, sans-serif;
   color: #7F8579; }
 
+a {
+  text-decoration: none; }
+  a:hover {
+    text-decoration: underline; }
+
 /*------------------------------------*\
     $LAYOUT
 \*------------------------------------*/
 /*------------------------------------*\
     $MODULES
 \*------------------------------------*/
+/* Block - Card */
+.card-block {
+  margin: 15px;
+  padding: 5px;
+  background: #fff;
+  border-radius: 3px;
+  max-width: 300px; }
+
+.card-price {
+  font-size: 14px;
+  color: #407074;
+  display: block;
+  text-align: right; }
+
+.card-title, .card-link {
+  font-weight: 400;
+  font-size: 14px;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #7F8579;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 0 10px 0;
+  line-height: 20px; }
+
+.card-shop {
+  font-size: 14px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  color: #b2b6ae;
+  display: block;
+  float: left;
+  width: 50%; }
 
 /*# sourceMappingURL=style.css.map */
