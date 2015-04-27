@@ -11,9 +11,19 @@ a {
   a:hover {
     text-decoration: underline; }
 
+img {
+  max-width: 100%; }
+
 /*------------------------------------*\
     $LAYOUT
 \*------------------------------------*/
+.grid-container, .grid-header, .grid-footer {
+  max-width: 72em;
+  margin: auto; }
+
+.grid-title a {
+  color: #407074; }
+
 /*------------------------------------*\
     $MODULES
 \*------------------------------------*/
