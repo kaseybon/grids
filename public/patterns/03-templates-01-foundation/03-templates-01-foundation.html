@@ -3,15 +3,9 @@
 	<head>
 		<title>Pattern Lab</title>
 		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width" />
+		<meta name="viewport" content="width=device-width" />	  
 
-		<!-- Grid Systems -->
-    <link rel="stylesheet" href="../../css/grids/grid-pure.css" />
-	  <link rel="stylesheet" href="../../css/grids/grid-pure-responsive.css" />
-
-	  <link rel="stylesheet" href="../../css/grids/foundation.css" />
-
-		<link rel="stylesheet" href="../../css/style.css?1430158492" media="all" />
+		<link rel="stylesheet" href="../../css/style.css?1430159072" media="all" />
 
 		<!-- Begin Pattern Lab (Required for Pattern Lab to run properly) -->
 				<!-- never cache patterns -->
@@ -21,15 +15,18 @@
 		<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
 		<meta http-equiv="pragma" content="no-cache" />
 		
-		<link rel="stylesheet" href="../../styleguide/css/styleguide.css?1430158492" media="all">
-		<link rel="stylesheet" href="../../styleguide/css/styleguide-specific.css?1430158492" media="all" />
+		<link rel="stylesheet" href="../../styleguide/css/styleguide.css?1430159072" media="all">
+		<link rel="stylesheet" href="../../styleguide/css/styleguide-specific.css?1430159072" media="all" />
 		
 
 		<!-- End Pattern Lab -->
 	
 	</head>
 	<body class="body">	
-		<header class="grid-header">
+		<!-- I know this is bad practice but I'm doing it anyways -->
+<link rel="stylesheet" href="../../css/grids/foundation.css" />
+
+<header class="grid-header">
   <h1 class="grid-title">
     <a href="http://foundation.zurb.com/index.html" target="_blank">Foundation</a>
   </h1>
@@ -86,6 +83,8 @@
   <p><strong>Block Grid:</strong><br />I don't really like that you can only use the block grid with a list element. While this will probably be fine for most websites it's just a bit too restrictive when it doesn't have to be.</p>
 
   <p><strong>Layout Grid:</strong><br />The layout grid is a 12 column grid that allows you to nest elements. Just like the Block grid classes are added depending on how many columns you want a container to span at a certain break point. If there are no classes the container will span all 12 columns. Other than the issues with having a bunch of classes I don't dislike this grid.</p>
+
+  <p><strong>Also:</strong><br />I only downloaded the grids so why do they have styles that are overwriting my body styles? I understand that normally their stylesheet would be placed before mine in the HEAD so my style will overwrite theirs but really they shouldn't be setting these styles to begin with.</p>
 </footer>
 	<!--DO NOT REMOVE-->
 		
@@ -129,10 +128,10 @@
 			
 		}
 	</script>
-	<script id="pl-js-polyfill-insert-1430158492">
+	<script id="pl-js-polyfill-insert-1430159072">
 		(function() {
 			if (self != top) {
-				var cb = '1430158492';
+				var cb = '1430159072';
 				var js = [];
 				if (typeof document !== "undefined" && !("classList" in document.documentElement)) {
 					js.push("styleguide/js/vendor/classlist-polyfill.js");
@@ -141,10 +140,10 @@
 			}
 		})();
 	</script>
-	<script id="pl-js-insert-1430158492">
+	<script id="pl-js-insert-1430159072">
 		(function() {
 			if (self != top) {
-				var cb = '1430158492';
+				var cb = '1430159072';
 				var js = [ { "src": "styleguide/js/vendor/jwerty.js", "dep": [ "styleguide/js/postmessage.js", { "src": "data/annotations.js", "dep": [ "styleguide/js/annotations-pattern.js" ] }, "styleguide/js/code-pattern.js" ] } ];
 				scriptLoader.run(js,cb,'pl-js-insert');
 			}
