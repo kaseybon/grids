@@ -1,0 +1,46 @@
+<link rel="stylesheet" href="../../css/grids/responsive-grid-system.css" />
+
+<header class="grid-header">
+  <h1 class="grid-title">
+    <a href="http://www.responsivegridsystem.com/" target="_blank">Responsive Grid System</a>
+  </h1>
+</header>
+
+<section class="grid-container">
+  <h2>Everything in rows</h2>
+  <div class="section group">
+    <div class="col span_1_of_4">{{> organisms-card-block }}</div>
+    <div class="col span_1_of_4">{{> organisms-card-block }}</div>
+    <div class="col span_1_of_4">{{> organisms-card-block }}</div>
+    <div class="col span_1_of_4">{{> organisms-card-block }}</div>
+  </div>
+  <div class="section group">
+    <div class="col span_1_of_4">{{> organisms-card-block }}</div>
+    <div class="col span_1_of_4">{{> organisms-card-block }}</div>
+    <div class="col span_1_of_4">{{> organisms-card-block }}</div>
+    <div class="col span_1_of_4">{{> organisms-card-block }}</div>
+  </div>
+</section>
+
+<section class="grid-container">
+  <h2>Everything NOT in rows</h2>
+  <div class="section group">
+    <div class="col span_1_of_4">{{> organisms-card-block }}</div>
+    <div class="col span_1_of_4">{{> organisms-card-block }}</div>
+    <div class="col span_1_of_4">{{> organisms-card-block }}</div>
+    <div class="col span_1_of_4">{{> organisms-card-block }}</div>
+    <div class="col span_1_of_4">{{> organisms-card-block }}</div>
+    <div class="col span_1_of_4">{{> organisms-card-block }}</div>
+    <div class="col span_1_of_4">{{> organisms-card-block }}</div>
+    <div class="col span_1_of_4">{{> organisms-card-block }}</div>
+  </div>
+</section>
+
+<footer class="grid-footer">
+  <h2>Thoughts</h2>
+
+  <p>One thing I like about this grid system is you can pick the number of columns you are going to need and generate the CSS and sample HTML. You are also able to have columns that span the width of multiple columns. The CSS is easy to edit and the grids are also able to be nested.</p>
+
+  <p>But... I think this grid system was meant to be for layouts only. Each row has to be wrapped in a div or else you get some funky margins. This makes it really difficult to use for the product grid above. It also has only one media query so it's either the columns span the full width or they are set at whatever column count you chose, so in my example: 4. That's a big jump and at certain screen sizes before the cards go full screen they look squished.</p>
+
+</footer>
