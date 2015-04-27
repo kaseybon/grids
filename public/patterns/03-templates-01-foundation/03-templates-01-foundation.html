@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Pattern Lab</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width" />
+
+		<!-- Grid Systems -->
+    <link rel="stylesheet" href="../../css/grids/grid-pure.css" />
+	  <link rel="stylesheet" href="../../css/grids/grid-pure-responsive.css" />
+
+	  <link rel="stylesheet" href="../../css/grids/foundation.css" />
+
+		<link rel="stylesheet" href="../../css/style.css?1430158492" media="all" />
+
+		<!-- Begin Pattern Lab (Required for Pattern Lab to run properly) -->
+				<!-- never cache patterns -->
+		<meta http-equiv="cache-control" content="max-age=0" />
+		<meta http-equiv="cache-control" content="no-cache" />
+		<meta http-equiv="expires" content="0" />
+		<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+		<meta http-equiv="pragma" content="no-cache" />
+		
+		<link rel="stylesheet" href="../../styleguide/css/styleguide.css?1430158492" media="all">
+		<link rel="stylesheet" href="../../styleguide/css/styleguide-specific.css?1430158492" media="all" />
+		
+
+		<!-- End Pattern Lab -->
+	
+	</head>
+	<body class="body">	
+		<header class="grid-header">
+  <h1 class="grid-title">
+    <a href="http://foundation.zurb.com/index.html" target="_blank">Foundation</a>
+  </h1>
+</header>
+
+<section class="grid-container">
+  <h2>Block Grid</h2>
+  <ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-4">
+    <li><div class="card-block">
+  <a href="#" class="card-link">
+  <img src="http://placehold.it/300x300" alt="Really Long Product Title" />  <h2 class="card-title">Really Long Product Name</h2>  </a>  <a href="#" class="card-shop">ShopName</a>    <span class="card-price">$100.00 <small>USD</small></span></div></li>
+    <li><div class="card-block">
+  <a href="#" class="card-link">
+  <img src="http://placehold.it/300x300" alt="Really Long Product Title" />  <h2 class="card-title">Really Long Product Name</h2>  </a>  <a href="#" class="card-shop">ShopName</a>    <span class="card-price">$100.00 <small>USD</small></span></div></li>
+    <li><div class="card-block">
+  <a href="#" class="card-link">
+  <img src="http://placehold.it/300x300" alt="Really Long Product Title" />  <h2 class="card-title">Really Long Product Name</h2>  </a>  <a href="#" class="card-shop">ShopName</a>    <span class="card-price">$100.00 <small>USD</small></span></div></li>
+    <li><div class="card-block">
+  <a href="#" class="card-link">
+  <img src="http://placehold.it/300x300" alt="Really Long Product Title" />  <h2 class="card-title">Really Long Product Name</h2>  </a>  <a href="#" class="card-shop">ShopName</a>    <span class="card-price">$100.00 <small>USD</small></span></div></li>
+    <li><div class="card-block">
+  <a href="#" class="card-link">
+  <img src="http://placehold.it/300x300" alt="Really Long Product Title" />  <h2 class="card-title">Really Long Product Name</h2>  </a>  <a href="#" class="card-shop">ShopName</a>    <span class="card-price">$100.00 <small>USD</small></span></div></li>
+    <li><div class="card-block">
+  <a href="#" class="card-link">
+  <img src="http://placehold.it/300x300" alt="Really Long Product Title" />  <h2 class="card-title">Really Long Product Name</h2>  </a>  <a href="#" class="card-shop">ShopName</a>    <span class="card-price">$100.00 <small>USD</small></span></div></li>
+    <li><div class="card-block">
+  <a href="#" class="card-link">
+  <img src="http://placehold.it/300x300" alt="Really Long Product Title" />  <h2 class="card-title">Really Long Product Name</h2>  </a>  <a href="#" class="card-shop">ShopName</a>    <span class="card-price">$100.00 <small>USD</small></span></div></li>
+  </ul>
+</section>
+
+<section class="grid-container">
+  <h2>Layout Grid</h2>
+
+  <div class="row">
+    <div class="columns" style="background: white; padding: 30px;"></div>
+  </div>
+  <div class="row">
+    <div class="large-3 columns" style="background: #999; padding: 160px 30px;"></div>
+    <div class="medium-6 large-6 columns" style="background: #666; padding: 160px 30px;"></div>
+    <div class="medium-6 large-3 columns" style="background: #777; padding: 160px 30px;"></div>
+  </div>
+  <div class="row">
+    <div class="columns" style="background: #555; padding: 30px;"></div>
+  </div>
+</section>
+
+<footer class="grid-footer">
+  <h2>Thoughts</h2>
+
+  <p>I like how there are two separate grids, one for the layout and one for content. These are two different elements that need to be treated as such. In order to make the grids responsive you need to add classes that specify how  many columns display for each break point. This just seems like too many potentially unused classes in your CSS. There is also the issue of having to create your own custom styles to override theirs if their break points won't work for you.</p>
+
+  <p><strong>Block Grid:</strong><br />I don't really like that you can only use the block grid with a list element. While this will probably be fine for most websites it's just a bit too restrictive when it doesn't have to be.</p>
+
+  <p><strong>Layout Grid:</strong><br />The layout grid is a 12 column grid that allows you to nest elements. Just like the Block grid classes are added depending on how many columns you want a container to span at a certain break point. If there are no classes the container will span all 12 columns. Other than the issues with having a bunch of classes I don't dislike this grid.</p>
+</footer>
+	<!--DO NOT REMOVE-->
+		
+	<script>
+		// handle injection of items from PHP
+		var patternPartial = "templates-foundation";
+		var lineage        = [{"lineagePattern":"organisms-card-block","lineagePath":"..\/..\/patterns\/02-organisms-00-card-00-card-block\/02-organisms-00-card-00-card-block.html"}];
+		var lineageR       = [];
+		var patternState   = "";
+		var cssEnabled     = false;
+	</script>
+		<script>
+		/*!
+		 * scriptLoader - v0.1
+		 *
+		 * Copyright (c) 2014 Dave Olsen, http://dmolsen.com
+		 * Licensed under the MIT license
+		 *
+		 */
+		
+		var scriptLoader = {
+			
+			run: function(js,cb,target) {
+				var s  = document.getElementById(target+'-'+cb); 
+				for (var i = 0; i < js.length; i++) {
+					var src = (typeof js[i] != "string") ? js[i].src : js[i];
+					var c   = document.createElement('script');
+					c.src   = '../../'+src+'?'+cb;
+					if (typeof js[i] != "string") {
+						if (js[i].dep !== undefined) {
+							c.onload = function(dep,cb,target) {
+								return function() {
+									scriptLoader.run(dep,cb,target);
+								}
+							}(js[i].dep,cb,target);
+						}
+					}
+					s.parentNode.insertBefore(c,s);
+				}
+			}
+			
+		}
+	</script>
+	<script id="pl-js-polyfill-insert-1430158492">
+		(function() {
+			if (self != top) {
+				var cb = '1430158492';
+				var js = [];
+				if (typeof document !== "undefined" && !("classList" in document.documentElement)) {
+					js.push("styleguide/js/vendor/classlist-polyfill.js");
+				}
+				scriptLoader.run(js,cb,'pl-js-polyfill-insert');
+			}
+		})();
+	</script>
+	<script id="pl-js-insert-1430158492">
+		(function() {
+			if (self != top) {
+				var cb = '1430158492';
+				var js = [ { "src": "styleguide/js/vendor/jwerty.js", "dep": [ "styleguide/js/postmessage.js", { "src": "data/annotations.js", "dep": [ "styleguide/js/annotations-pattern.js" ] }, "styleguide/js/code-pattern.js" ] } ];
+				scriptLoader.run(js,cb,'pl-js-insert');
+			}
+		})();
+	</script>
+	
+
+	</body>
+</html>

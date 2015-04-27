@@ -1,0 +1,44 @@
+&lt;header class=&quot;grid-header&quot;&gt;
+  &lt;h1 class=&quot;grid-title&quot;&gt;
+    &lt;a href=&quot;http://foundation.zurb.com/index.html&quot; target=&quot;_blank&quot;&gt;Foundation&lt;/a&gt;
+  &lt;/h1&gt;
+&lt;/header&gt;
+
+&lt;section class=&quot;grid-container&quot;&gt;
+  &lt;h2&gt;Block Grid&lt;/h2&gt;
+  &lt;ul class=&quot;small-block-grid-2 medium-block-grid-3 large-block-grid-4&quot;&gt;
+    &lt;li&gt;{{&gt; organisms-card-block }}&lt;/li&gt;
+    &lt;li&gt;{{&gt; organisms-card-block }}&lt;/li&gt;
+    &lt;li&gt;{{&gt; organisms-card-block }}&lt;/li&gt;
+    &lt;li&gt;{{&gt; organisms-card-block }}&lt;/li&gt;
+    &lt;li&gt;{{&gt; organisms-card-block }}&lt;/li&gt;
+    &lt;li&gt;{{&gt; organisms-card-block }}&lt;/li&gt;
+    &lt;li&gt;{{&gt; organisms-card-block }}&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/section&gt;
+
+&lt;section class=&quot;grid-container&quot;&gt;
+  &lt;h2&gt;Layout Grid&lt;/h2&gt;
+
+  &lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;columns&quot; style=&quot;background: white; padding: 30px;&quot;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;large-3 columns&quot; style=&quot;background: #999; padding: 160px 30px;&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;medium-6 large-6 columns&quot; style=&quot;background: #666; padding: 160px 30px;&quot;&gt;&lt;/div&gt;
+    &lt;div class=&quot;medium-6 large-3 columns&quot; style=&quot;background: #777; padding: 160px 30px;&quot;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;columns&quot; style=&quot;background: #555; padding: 30px;&quot;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;footer class=&quot;grid-footer&quot;&gt;
+  &lt;h2&gt;Thoughts&lt;/h2&gt;
+
+  &lt;p&gt;I like how there are two separate grids, one for the layout and one for content. These are two different elements that need to be treated as such. In order to make the grids responsive you need to add classes that specify how  many columns display for each break point. This just seems like too many potentially unused classes in your CSS. There is also the issue of having to create your own custom styles to override theirs if their break points won't work for you.&lt;/p&gt;
+
+  &lt;p&gt;&lt;strong&gt;Block Grid:&lt;/strong&gt;&lt;br /&gt;I don't really like that you can only use the block grid with a list element. While this will probably be fine for most websites it's just a bit too restrictive when it doesn't have to be.&lt;/p&gt;
+
+  &lt;p&gt;&lt;strong&gt;Layout Grid:&lt;/strong&gt;&lt;br /&gt;The layout grid is a 12 column grid that allows you to nest elements. Just like the Block grid classes are added depending on how many columns you want a container to span at a certain break point. If there are no classes the container will span all 12 columns. Other than the issues with having a bunch of classes I don't dislike this grid.&lt;/p&gt;
+&lt;/footer&gt;

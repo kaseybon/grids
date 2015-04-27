@@ -1,0 +1,44 @@
+<header class="grid-header">
+  <h1 class="grid-title">
+    <a href="http://foundation.zurb.com/index.html" target="_blank">Foundation</a>
+  </h1>
+</header>
+
+<section class="grid-container">
+  <h2>Block Grid</h2>
+  <ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-4">
+    <li>{{> organisms-card-block }}</li>
+    <li>{{> organisms-card-block }}</li>
+    <li>{{> organisms-card-block }}</li>
+    <li>{{> organisms-card-block }}</li>
+    <li>{{> organisms-card-block }}</li>
+    <li>{{> organisms-card-block }}</li>
+    <li>{{> organisms-card-block }}</li>
+  </ul>
+</section>
+
+<section class="grid-container">
+  <h2>Layout Grid</h2>
+
+  <div class="row">
+    <div class="columns" style="background: white; padding: 30px;"></div>
+  </div>
+  <div class="row">
+    <div class="large-3 columns" style="background: #999; padding: 160px 30px;"></div>
+    <div class="medium-6 large-6 columns" style="background: #666; padding: 160px 30px;"></div>
+    <div class="medium-6 large-3 columns" style="background: #777; padding: 160px 30px;"></div>
+  </div>
+  <div class="row">
+    <div class="columns" style="background: #555; padding: 30px;"></div>
+  </div>
+</section>
+
+<footer class="grid-footer">
+  <h2>Thoughts</h2>
+
+  <p>I like how there are two separate grids, one for the layout and one for content. These are two different elements that need to be treated as such. In order to make the grids responsive you need to add classes that specify how  many columns display for each break point. This just seems like too many potentially unused classes in your CSS. There is also the issue of having to create your own custom styles to override theirs if their break points won't work for you.</p>
+
+  <p><strong>Block Grid:</strong><br />I don't really like that you can only use the block grid with a list element. While this will probably be fine for most websites it's just a bit too restrictive when it doesn't have to be.</p>
+
+  <p><strong>Layout Grid:</strong><br />The layout grid is a 12 column grid that allows you to nest elements. Just like the Block grid classes are added depending on how many columns you want a container to span at a certain break point. If there are no classes the container will span all 12 columns. Other than the issues with having a bunch of classes I don't dislike this grid.</p>
+</footer>
